@@ -1,0 +1,28 @@
+.note-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 16px;
+  }
+  
+  .note-item {
+    background-color: #f9f9f9;
+    padding: 16px;
+    border-radius: 8px;
+    width: 200px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .note-item h3 {
+    margin: 0;
+    font-size: 18px;
+  }
+  
+  .note-item .category {
+    color: #555;
+    font-size: 12px;
+  }
+  
+  .note-item .actions button {
+    margin-right: 8px;
+  }
+  
